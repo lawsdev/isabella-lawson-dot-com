@@ -1,0 +1,12 @@
+img {
+    max-height: 30vh;
+}
+.abt-box {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+.abt-txt {
+    color: brown;
+}

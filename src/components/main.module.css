@@ -1,0 +1,23 @@
+/* site container & universal CSS */
+/* import * as mainStyles from './main.module.css' */
+
+/* hide scrollbar */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+body {
+    margin: auto;
+    background-color: #BFB2AE;
+}
+.content-width {
+    max-width: 80%;
+    margin: auto;
+    color: rgb(3, 31, 4);
+}
+.in-progress {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}

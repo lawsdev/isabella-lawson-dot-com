@@ -1,0 +1,17 @@
+.workedu-box {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+	align-items: center;
+}
+.workedu-nav {
+    display: flex;
+    flex-direction: column;
+    color: firebrick;
+}
+.workedu-nav>p:hover {
+    background-color: pink;
+}
+.workedu-txt {
+    color: rgb(255, 255, 255);
+}

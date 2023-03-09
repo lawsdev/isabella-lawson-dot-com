@@ -1,0 +1,11 @@
+.projects-box {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	align-items: center;
+}
+.project-image-box {
+    display: flex;
+    flex-direction: column;
+}
