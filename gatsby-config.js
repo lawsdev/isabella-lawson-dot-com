@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `IsabellaLawsonDotCom`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.isabellalawson.com`
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
