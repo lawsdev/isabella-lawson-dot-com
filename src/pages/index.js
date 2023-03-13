@@ -1,10 +1,11 @@
 import * as React from "react"
-// can you import these as an array from @components?
-import Header from "../components/header"
-import Fold from "../components/fold"
-import About from "../components/about"
-import Workedu from "../components/workedu"
-import Projects from "../components/projects"
+//look into using a webpack config to set up aliases
+import Header from "../components/layouts/header"
+import Fold from "../components/sections/fold"
+import About from "../components/sections/about"
+import Workedu from "../components/sections/workedu"
+import Projects from "../components/sections/projects"
+import Footer from "../components/layouts/footer"
 import * as mainStyles from "../components/main.module.css"
 
 
@@ -17,6 +18,7 @@ const IndexPage = () => {
       <Workedu />
       <Projects />
       <div id="gotcha" className={`${mainStyles.inProgress} ${mainStyles.contentWidth}`}>coming soon!</div>
+      <Footer />
     </div>
   )
 }

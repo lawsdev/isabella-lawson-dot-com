@@ -1,0 +1,9 @@
+.footbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email>a {
+    text-decoration: none;
+    color: darkslategrey;
+}

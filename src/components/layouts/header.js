@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as styles from './header.module.css'
-import * as mainStyles from './main.module.css'
+import * as mainStyles from '../main.module.css'
 
 const Header = () => {
 

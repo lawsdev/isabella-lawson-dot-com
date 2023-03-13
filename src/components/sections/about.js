@@ -1,7 +1,8 @@
 import * as React from 'react'
 //css module import
 import * as styles from './about.module.css'
-import * as mainStyles from './main.module.css'
+import * as mainStyles from '../main.module.css'
+
 
 const About = () => {
     return (
