@@ -3,7 +3,6 @@ import * as styles from './header.module.css'
 import * as mainStyles from '../main.module.css'
 
 const Header = () => {
-
     return (
       <header>
         <div className={mainStyles.contentWidth}>

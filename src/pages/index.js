@@ -6,6 +6,7 @@ import About from "../components/sections/about"
 import Workedu from "../components/sections/workedu"
 import Projects from "../components/sections/projects"
 import Footer from "../components/layouts/footer"
+import Seo from "../components/layouts/seo"
 import * as mainStyles from "../components/main.module.css"
 
 
@@ -25,4 +26,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <Seo title="Isabella Lawson" />
