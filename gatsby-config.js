@@ -6,7 +6,19 @@ module.exports = {
     title: `IsabellaLawsonDotCom`,
     siteUrl: `https://www.isabellalawson.com`
   },
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", 
+  {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Shippori Antique`,
+          `Zen Kaku Gothic New`,
+          `Limelight`
+        ],
+        display: "swap",
+      },
+  }, 
+  {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
