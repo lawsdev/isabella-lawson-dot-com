@@ -8,11 +8,11 @@
 
 body {
     margin: auto;
-    background-color: #BFB2AE;
+    background-color: #d5d1e9;
     font-family: 'Shippori Antique', sans-serif;
 }
 .content-width {
-    max-width: 80%;
+    max-width: 70%;
     margin: auto;
     color: rgb(3, 31, 4);
 }

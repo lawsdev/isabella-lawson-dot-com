@@ -2,3 +2,7 @@
     height: 80vh;
     display: flex;
 }
+.fold-container > div {
+    background-color: #32b2e4;
+    color: #2d1e21;
+}

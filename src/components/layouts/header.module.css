@@ -1,7 +1,7 @@
 header {
     margin: 0 0 2vh 0;
     padding-bottom: 2vh;
-    background-color: #ebb9e0;
+    background-color: #fffbe1;
 }
 .tophalf, nav {
     display: flex;
@@ -9,6 +9,7 @@ header {
 }
 nav>a {
     margin-right: 20px;
+    color: #a97778;
 }
 h1 {
     text-decoration: underline;
