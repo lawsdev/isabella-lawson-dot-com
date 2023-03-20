@@ -20,6 +20,7 @@ const IndexPage = () => {
       <Projects />
       <div id="gotcha" className={`${mainStyles.inProgress} ${mainStyles.contentWidth}`}>coming soon!</div>
       <Footer />
+      
     </div>
   )
 }

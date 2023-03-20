@@ -4,10 +4,14 @@ import Footer from '../layouts/footer'
 import * as styles from './auxiliary.module.css'
 import * as mainStyles from '../main.module.css'
 
-const Auxlayout = () => {
+const Auxlayout = ({ pageTitle, children }) => {
     return (
-        <div className={styles.auxpageContainer}> 
-            <div className={styles.auxbox}></div>
+        <div className={styles.auxpage}> 
+            <div className={styles.auxbox}>
+                <div className={styles.content}>
+                    {children}
+                </div>
+            </div>
             <Footer/>
         </div>
         

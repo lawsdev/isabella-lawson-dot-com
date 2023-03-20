@@ -1,3 +1,6 @@
+.auxpage {
+    overflow-y: hidden;
+}
 .auxbox {
     margin: 10vh auto 0 auto;
     width: 80vw;
@@ -5,9 +8,6 @@
     background-color: #d9d9d9;
     overflow: scroll;
 }
-.auxbox>p {
-    margin: auto;
-}
-.auxpage-container {
-    overflow-y: hidden;
+.content {
+    margin: 10vh;
 }

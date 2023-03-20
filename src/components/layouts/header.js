@@ -11,7 +11,7 @@ const Header = () => {
             <p>gcgen</p>
           </div>
           <nav>
-            <a href="#about">abt</a><a href="#workedu">work</a><a href="#projects">projects</a> <a href="#gotcha">blog docs contact</a>
+            <a href="#about">abt</a><a href="#workedu">work</a><a href="#projects">projects</a> <a href="/blog/">blog</a> <a href="#gotcha">docs contact</a>
           </nav>
         </div>
       </header>
